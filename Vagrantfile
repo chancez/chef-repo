@@ -34,7 +34,7 @@ Vagrant.configure("2") do |config|
     # chef.delete_client = true
 
     chef.run_list = [
-        "recipe[vps]"
+        "recipe[base]"
     ]
   end
 end
